@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Changing Wesite Style</title>
+  <style>
+    hr {
+      border-style: dotted dashed solid double;
+      width: 20%;
+      height: 20px;
+    }
+  </style>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <p><a href="index.html">Return</a></p>
+  <h3>Changing Styles</h3>
+  <h4>Simple and local way</h4>
+  <ul>
+    <li>Add to the "BODY" and/or the part you want to change <strong>Style="background-color: #E2D5D5"</strong></li>
+  </ul>
+  <h4>Changing the entire structute</h4>
+  <p>This change need to be done in the <strong>HEAD</strong> area of the HTML code</p>
+  <ul>
+    <li>Inside the Head tag, add tag Style</li>
+    <ul>
+      <li>Inside Style, choose the part in the body you will change</li>
+      <li>Include <strong>Body{}</strong></li>
+      <li>Examples of parts changed inside the {}</li>
+      <ul>
+        <li>Background-color: blue;</li>
+        <li>One part changed inside the {}</li>
+      </ul>
+      <li>Sometimes it is necessary to check the default CSS values and change them</li>
+      <ul>
+        <li>Changing border-style to <strong>none</strong></li>
+        <li>Height: 2px, for lines</li>
+        <li>Width: 30% or 200px. The percentage is convinient for cellphones, pc or differents devices</li>
+        <li>Border-style will always follow Top Right Bottom Left, so it could be </li>
+        <hr>
+        <li>The <strong><a href="https://devdocs.io">https://devdocs.io</a></strong> can show you the details</li>
+      </ul>
+    </ul>
+  </ul>
+  <h4>Best way to change the styles</h4>
+  <ul>
+    <li>Create a New folder <strong>css</strong> and a file <strong>styles.css</strong>
+    <li>add to this folder all the changes in background-color, text colour</li>
+    <li>Create in the Head a <strong>Link tag</strong> related to this new file</li>
+    <li>Copy the link reference to all pages and they'll all reflect the same style you created</li>
+    <li>Just add the tag color to the tag you want to change; or</li>
+    <li>Change in Styles</li>
+  </ul>
+</body>
+
+</html>
